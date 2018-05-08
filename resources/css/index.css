@@ -1,58 +1,58 @@
 html {
-  font-size: 18px;
+   font-size: 18px;
 
 }
 
 .headercontentcontainer {
-  margin: auto;
-  width: 960px;
-  display: flex;
-  justify-content: flex-start;
+    margin: auto;
+    width: 960px;
+    display: flex;
+    justify-content: flex-start;
 }
 
 
 /* header section */
 
 .header {
-   height: auto;
-   width: 100%;
-   background-color: black;
-   display: flex;
+     height: auto;
+     width: 100%;
+     background-color: black;
+     display: flex;
 }
 
 .maintitle {
-  font-family: helvetica;
-  font-size: 1rem;
-  height: auto;
-  width: auto;
-  color: white;
-  padding-top: 0.66rem;
-  padding-bottom: 0.66rem;
+    font-family: helvetica;
+    font-size: 1rem;
+    height: auto;
+    width: auto;
+    color: white;
+    padding-top: 0.66rem;
+    padding-bottom: 0.66rem;
 }
 
 .logo {
-   height: 1.5rem;
-   z-index: 1;
-   padding-left: 0.5rem;
-   padding-right:1rem;
+     height: 1.5rem;
+     z-index: 1;
+     padding-left: 0.5rem;
+     padding-right:1rem;
 }
 
 .mainsection {
-  background-image: url("../images/moto.jpg");
-  background-color: black;
-  height: 25rem;
-  background-size: cover;
-  background-repeat: no-repeat;
+    background-image: url("../images/moto.jpg");
+    background-color: black;
+    height: 25rem;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .mainheadingcontainer {
-  width: 960px;
-  margin: auto;
+   width: 960px;
+   margin: auto;
 }
 
 .mainheading {
-  width: 25rem;
-  padding-top: 9rem;
+   width: 25rem;
+   padding-top: 9rem;
 }
 
 .newarrival {
@@ -67,11 +67,32 @@ html {
 }
 
 .sports {
-  font-family: helvetica;
-  font-weight: bold;
-  font-size: 2rem;
+    font-family: helvetica;
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
+    padding-left: 3rem;
+    background-color: black;
+    padding-bottom: 2rem;
+}
+
+.midnav {
+  background-color: red;
+  width: 100%;
+}
+
+.midnavcontainer {
+  max-width: 960px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.midnavcontainer a {
   color: white;
-  padding-left: 3rem;
-  background-color: black;
-  padding-bottom: 2rem;
+  font-family: helvetica;
+  font-size: 1rem;
+  font-weight: bolder;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
