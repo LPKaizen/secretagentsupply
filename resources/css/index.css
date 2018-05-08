@@ -96,3 +96,34 @@ html {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
 }
+
+.infosection {
+  width: 100%;
+}
+
+.picturescontainer {
+  width: 960px;
+  display: flex;
+  margin: auto:
+}
+
+.pictures {
+  border: black 5px solid;
+}
+
+.img {
+  height: 9rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.title {
+  color: white;
+  background-color: black;
+  font-family: helvetica;
+  font-size: 1rem;
+  font-weight: bolder;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  width: auto;
+}
