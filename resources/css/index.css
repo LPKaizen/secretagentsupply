@@ -1,6 +1,5 @@
 html {
    font-size: 18px;
-
 }
 
 .headercontentcontainer {
@@ -9,7 +8,6 @@ html {
     display: flex;
     justify-content: flex-start;
 }
-
 
 /* header section */
 
@@ -74,6 +72,12 @@ html {
     padding-left: 3rem;
     background-color: black;
     padding-bottom: 2rem;
+}
+
+
+/*midnav section */
+.tabletmenu {
+  display: none;
 }
 
 .midnav {
@@ -185,3 +189,94 @@ html {
 .copyright {
   color: white;
 }
+
+@media only screen and (min-width: 1024px) {
+  #tabletmenu {
+     display: none;
+  }
+
+}
+
+@media only screen and (max-width: 940px) {
+
+  #remove {
+    display: none;
+  }
+
+    .itemcontainer {
+        width: 47%;
+  }
+     .img {
+        width: 37%;
+    }
+
+ }
+
+ @media only screen and (max-width: 470px) {
+
+   #remove {
+     display: none;
+   }
+   #remove2 {
+     display: none;
+   }
+
+   .itemcontainer {
+      width: 70%;
+      margin: auto;
+   }
+
+   .img {
+     width: 27%;
+   }
+
+     .mainheading {
+      padding-top: 10rem;
+      width: 100%;
+    }
+
+     .mainsection {
+        height: 15rem;
+     }
+
+     .newarrival {
+       padding-top: 1rem;
+       padding-left: 2rem;
+       font-family: helvetica;
+       font-size: 0.77rem;
+       font-weight: bold;
+     }
+
+     .sports {
+       padding-left: 2rem;
+       font-family: helvetica;
+       font-size: 1rem;
+       font-weight: bold;
+     }
+
+
+    .picturescontainer {
+      width: 470px;
+    }
+
+     .infocontainer {
+       width: 470px;
+       margin: auto;
+       display: inline-flex;
+       flex-direction: column;
+     }
+
+     .lowersection {
+       width: 100%;
+     }
+
+    .locations {
+      width: 90%;
+      margin: auto;
+    }
+
+    .hours {
+      width: 90%;
+      margin: auto;
+    }
+ }
